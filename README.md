@@ -123,8 +123,8 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 4. In **Visual Studio Code**, select _File_ -> _Add Folder to Workspace_ -> Select the newly created directory
 5. Select Terminal Window
     In the window, type:
-    ```
-$>git config --global user.name <github userID>
+        ```cmd
+        $>git config --global user.name <github userID>
 
-$>git clone <URL from github link copied earlier>
-```
+        $>git clone <URL from github link copied earlier>
+        ```
