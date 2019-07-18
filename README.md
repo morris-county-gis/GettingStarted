@@ -124,7 +124,7 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 5. Select Terminal Window
     In the window, type:
         ```cmd
-        $>git config --global user.name <github userID>
+        $git config \-\-global user.name <github userID>
 
-        $>git clone <URL from github link copied earlier>
+        $git clone <URL from github link copied earlier>
         ```
