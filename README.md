@@ -1,15 +1,15 @@
 # GettingStarted
 Getting Started with Git / GitHub
 Steps:
-1. Download/install gis and set up your global username and employee email(keep in mind that other people will be viewing your edits by your user name).
+1. Download/install Git and set up your global username and employee email(keep in mind that other people will be viewing your edits by your user name).
 2. Create a free GitHub account using your employee email.
 3. Download/install Visual Studio Code
 
-[Follow these simple rules and you’ll become a Git and GitHub master - Aerial Camus](https://www.freecodecamp.org/news/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f/)
+    [Follow these simple rules and you’ll become a Git and GitHub master - Aerial Camus](https://www.freecodecamp.org/news/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f/)
 
-1. Create a Git repository for every new project
-2. Create a new branch for every new feature
-3. Use Pull Requests to merge code to Master
+    1. Create a Git repository for every new project
+    2. Create a new branch for every new feature
+    3. Use Pull Requests to merge code to Master
 
 ## git
 website: https://git-scm.com/downloads
