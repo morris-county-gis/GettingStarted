@@ -3,8 +3,11 @@ Getting Started with Git / GitHub
 
 ## git
 website: https://git-scm.com/downloads
+
 Getting Started Video: https://git-scm.com/video/get-going
-Cheatsheet: 
+
+Cheatsheet: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+
 Notes:
 **Set up global git environment**
 ```cmd
