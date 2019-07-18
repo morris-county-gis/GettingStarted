@@ -42,9 +42,13 @@ Notes:
 
 ### GitHub Desktop
 website: https://desktop.github.com/
+
 Getting Started Video: https://www.youtube.com/watch?v=S7f8qJscmRE
+
 Cheatsheet: 
+
 Notes:
+
 Excerpt from https://github.com/desktop/desktop/edit/development/docs/process/what-is-desktop.md
 #### What is GitHub Desktop and who is it for?
 
@@ -103,12 +107,16 @@ with and encourages best practices.
 workflow, where the goal is to bring work together that was done in different places.
 
 ### Visual Studio Code
-website:
-Getting Started Video: 
-Cheatsheet: 
-Notes:
+website: https://code.visualstudio.com/Download
 
-Steps to clone a GitHub Repository:
+Getting Started Video: https://code.visualstudio.com/docs/introvideos/basics
+
+Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
+
+**Notes:**
+
+**Steps to clone a GitHub Repository:**
+
 1. Create a directory on the local file system.
 2. Create a repo on Github.
 3. Select Clone "Clone or download" on Github, copy the link
@@ -116,7 +124,7 @@ Steps to clone a GitHub Repository:
 5. Select Terminal Window
     In the window, type:
     ```
->    git config --global user.name <github userID>
+$>git config --global user.name <github userID>
 
->    git clone <URL from github link copied earlier>
+$>git clone <URL from github link copied earlier>
 ```
