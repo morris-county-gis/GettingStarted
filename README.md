@@ -7,8 +7,10 @@ Steps:
 
     [Follow these simple rules and you’ll become a Git and GitHub master - Aerial Camus](https://www.freecodecamp.org/news/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f/)
 
-    1. Create a Git repository for every new project
+    1. Create a GitHub repository for every new project
     2. Create a new branch for every new feature
+       1. Clone a branch from the "company" repo into your local repo
+       2. Commit edits/additions in your local repo 
     3. Use Pull Requests to merge code to Master
 
 ## git
