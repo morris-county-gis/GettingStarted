@@ -30,6 +30,9 @@ git config --global user.email "UserName@gmail.com"
 ```cmd
 git config --list
 ```
+**gitignore**
+Projects which contain sensitive information and/or local builds and compiled code must include a gitignore file to explicitly prevent specified folders, files or file types from being both tracked in git and added to the GitHub repository.  All builds and information containing database connection strings secrets and passwords should ONLY exist in your local build and must be excluded via gitignore.  A readme file should instruct the user of the necessary steps to "wire" up the project.  
+
 
 ## GitHub
 website: https://github.com/
@@ -135,8 +138,37 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 4. In **Visual Studio Code**, select _File_ -> _Add Folder to Workspace_ -> Select the newly created directory
 5. Select Terminal Window
     In the window, type:
-        ```cmd
-        $git config \-\-global user.name <github userID>
+    ```
+    git config global user.name [github userID]
+    git clone [URL from github link copied earlier]
+    ```
+**Adding an existing project to GitHub using the command line:**
+  gsantopaolo    October 12, 2018 0 2,245   Less than a minute
+1. Create a new repository on GitHub. 
+    * Add a gitignore file(see sample gitignore templates).
+    * Add a readme file if none exists in your local project.
+    * Add a licence if you want.
+2. Open Git Bash
+3. Change the current working directory to your local project.
+4. Initialize the local directory as a Git repository.
+```
+git init
+```
+5. Add the files in your new local repository. This stages them for the first commit.
+```
+git add .
+```
+6. Commit the files that you’ve staged in your local repository.
+```
+git commit -m "initial commit"
+```
+7. Copy the https url of your newly created repo
+    * In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+    ```
+    git remote add origin [remote repository URL]
+    ```
+git remote -v
+8. Push the changes in your local repository to GitHub.
 
-        $git clone <URL from github link copied earlier>
-        ```
+git push -f origin master
+        
