@@ -1,4 +1,4 @@
-# GettingStarted
+﻿# GettingStarted
 Getting Started with Git / GitHub
 Steps:
 1. Download/install Git and set up your global username and employee email(keep in mind that other people will be viewing your edits by your user name).
@@ -192,6 +192,13 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 
+<<<<<<< HEAD
+**Edits**
+1. search
+2. pull
+3. Test
+
+=======
 
 <<<<<<< HEAD
 ** Stuart's test edits **
