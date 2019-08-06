@@ -195,9 +195,10 @@ $ git merge new-branch
 
 ** Dan's Test Edits **
 
-- [x] # :camel:
-- [] # :moon:
-- [x] # :rocket:
+- [x]  :camel:
+- []  :moon:
+- [x]  :rocket:
+
 ** Steve's Test Edits **
 
 - [] to do 1
