@@ -127,7 +127,7 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 
 **Notes:**
 
-**Steps to clone a GitHub Repository:**
+**Steps to clone a GitHub Repository into a local project:**
 
 1. Create a directory on the local file system.
 2. Create a repo on Github.
@@ -140,3 +140,55 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 
         $git clone <URL from github link copied earlier>
         ```
+**Steps to turn a local project into a GitHub reposity:**
+
+1. Navigate to the root project folder in a command line editor.
+2. If the project hasn't already been versioned with git, run:
+        ```cmd
+         $git init
+       ```
+3. Add a .gitignore file the the names of files and folders to exclude.
+Stage all file to the repository, then commit them
+        ```cmd
+        $git add .
+        $git commit -m "Initial commit"
+        ```
+4. Register the local repository with the GitHub repository.
+        ```cmd
+        $git remote add origin "https://github.com/morris-county-gis/myRepositoryName"
+        ``` 
+Upon completeion of the remote repository registry, you can **push** ($git push) your local edits to the remote repository, and **pull** ($git pull) changes in the remote repository into you local project
+
+**Create a branch in your local repository**
+1. Create the branch
+```cmd
+$git branch branchName
+```
+2. Switch active editing environment to the new branch
+
+...from command line: $git checkout branchName
+
+
+**Editing in your local repository**
+You shoud not edit in the master branch, therefor you'll need to explore the existing branches and create one if needed, then switch to that branch prior to editing project.  Finally, you need to push your commits to the branch that you're working on.
+1. Set up your editing environment
+to list branches: $git branch -r
+to create and checkout a branch: see above
+to verify your active branch: $git branch
+2. Make / commit your local edits  
+$git add .
+$git commit -m "your message"
+3. Push your edits up to the remote repository
+If branch exists in remote repository: $git push origin branchName 
+If branch does not exist in remote repository $git push origin localbranchName:repositorybranchName
+
+**Merging Branches**
+After you've committed edits to your branch, you'll eventually want to update the master branch.  To do that you'll switch back to the master branch and then **merge** the branch
+
+ ...develop some code...
+$ git add –A
+$ git commit –m "Some commit message"
+$ git checkout master
+Switched to branch 'master'
+$ git merge new-branch
+
