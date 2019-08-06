@@ -192,3 +192,16 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 
+
+** Stuart's test edits **
+
+# Stus Main Title
+
+## Sub category
+1. First Point
+2. Second Point
+## Second Sub Category
+1. First Point
+2. Second Point	
+
+
