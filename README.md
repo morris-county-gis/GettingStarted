@@ -192,3 +192,9 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 
+
+** Dan's Test Edits **
+
+- [x] # :camel:
+- [] # :moon:
+- [x] # :rocket:
