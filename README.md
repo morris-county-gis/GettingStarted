@@ -192,3 +192,9 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 
+
+** Steve's Test Edits **
+
+- [] to do 1
+- [x] todo 2 completed.
+
