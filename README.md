@@ -193,6 +193,7 @@ Switched to branch 'master'
 $ git merge new-branch
 
 
+<<<<<<< HEAD
 ** Stuart's test edits **
 
 # Stus Main Title
@@ -204,4 +205,15 @@ $ git merge new-branch
 1. First Point
 2. Second Point	
 
+=======
+** Dan's Test Edits **
+
+- [x] # :camel:
+- [] # :moon:
+- [x] # :rocket:
+** Steve's Test Edits **
+
+- [] to do 1
+- [x] todo 2 completed.
+>>>>>>> e43fca104e681fd7033f0358bb276cb07058d06c
 
