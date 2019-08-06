@@ -192,9 +192,22 @@ $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
 
+<<<<<<< HEAD
 **Edits**
 1. search
 2. pull
 3. Test
 
+=======
+
+** Dan's Test Edits **
+
+- [x] # :camel:
+- [] # :moon:
+- [x] # :rocket:
+** Steve's Test Edits **
+
+- [] to do 1
+- [x] todo 2 completed.
+>>>>>>> e43fca104e681fd7033f0358bb276cb07058d06c
 
