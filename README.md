@@ -191,3 +191,25 @@ $ git commit –m "Some commit message"
 $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
+
+
+** Dan's Test Edits **
+
+- [x]  :camel:
+- []  :moon:
+- [x]  :rocket:
+
+** Steve's Test Edits **
+
+- [] to do 1
+- [x] todo 2 completed.
+
+** Stuart's test edits **
+# Stus Main Title
+
+## Sub category
+1. First Point
+2. Second Point
+## Second Sub Category
+1. First Point
+2. Second Point
