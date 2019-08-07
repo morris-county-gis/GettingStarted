@@ -140,7 +140,7 @@ Cheatsheet: https://github.com/microsoft/vscode-tips-and-tricks
 
         $git clone <URL from github link copied earlier>
         ```
-**Steps to turn a local project into a GitHub reposity:**
+**Steps to turn a local project into a GitHub repository:**
 
 1. Navigate to the root project folder in a command line editor.
 2. If the project hasn't already been versioned with git, run:
@@ -157,7 +157,7 @@ Stage all file to the repository, then commit them
         ```cmd
         $git remote add origin "https://github.com/morris-county-gis/myRepositoryName"
         ```
-Upon completeion of the remote repository registry, you can **push** ($git push) your local edits to the remote repository, and **pull** ($git pull) changes in the remote repository into you local project
+Upon completion of the remote repository registry, you can **push** ($git push) your local edits to the remote repository, and **pull** ($git pull) changes in the remote repository into you local project
 
 **Create a branch in your local repository**
 1. Create the branch
@@ -191,25 +191,3 @@ $ git commit –m "Some commit message"
 $ git checkout master
 Switched to branch 'master'
 $ git merge new-branch
-
-
-** Dan's Test Edits **
-
-- [x]  :camel:
-- []  :moon:
-- [x]  :rocket:
-
-** Steve's Test Edits **
-
-- [] to do 1
-- [x] todo 2 completed.
-
-** Stuart's test edits **
-# Stus Main Title
-
-## Sub category
-1. First Point
-2. Second Point
-## Second Sub Category
-1. First Point
-2. Second Point
