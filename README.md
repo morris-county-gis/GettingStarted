@@ -163,9 +163,12 @@ git add .
 git commit -m "initial commit"
 ```
 7. Create a new repository in the morris-county-gis group
-        *Click the new repository button in the top-right. Initialize the repository with a README file.
-        *Click the “Create repository” button.
-        *Note: there may be a button that you can press to copy the URL needed in the next step.
+        
+        Click the new repository button in the top-right. Initialize the repository with a README file.
+        
+        Click the “Create repository” button.
+        
+        Note: there may be a button that you can press to copy the URL needed in the next step.
         
 8. Copy the https url of your newly created repo
 
