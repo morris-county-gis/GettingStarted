@@ -164,11 +164,11 @@ git commit -m "initial commit"
 ```
 7. Create a new repository in the morris-county-gis group
         
-        Click the new repository button in the top-right. Initialize the repository with a README file.
+    Click the new repository button in the top-right. Initialize the repository with a README file.
         
-        Click the “Create repository” button.
+    Click the “Create repository” button.
         
-        Note: there may be a button that you can press to copy the URL needed in the next step.
+    Note: there may be a button that you can press to copy the URL needed in the next step.
         
 8. Copy the https url of your newly created repo
 
@@ -176,10 +176,10 @@ git commit -m "initial commit"
     ```
     git remote add origin [remote repository URL]  https://github.com/[user]/[repoName]
     ```
-git remote -v
+    git remote -v
 
 9. Push the changes in your local repository to GitHub.
 
-git push -f origin master
+    git push -f origin master
 
         
