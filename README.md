@@ -5,7 +5,7 @@ Steps:
 2. Create a free GitHub account using your employee email.
 3. Download/install Visual Studio Code
 
-    [Follow these simple rules and you’ll become a Git and GitHub master - Aerial Camus](https://www.freecodecamp.org/news/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f/)
+    [Pro Git book online](https://git-scm.com/book/en/v2)
 
     1. Create a GitHub repository for every new project
     2. Create a new branch for every new feature
